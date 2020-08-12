@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <h1>Info</h1>
+        <h1>Star Wars Info</h1>
         <Navbar setPage={setPage} />
         <div className="content">
           {page === 'planets' ? <Planets /> : <People />}
